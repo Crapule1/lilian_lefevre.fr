@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithme Prédictif - Lilian Lefevre</title>
+    <meta name="description" content="Détails du projet Algorithme Prédictif">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=11">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .project-hero {
+            padding: 120px 0 60px;
+            text-align: center;
+        }
+
+        .project-hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+
+        .project-meta {
+            color: var(--primary-accent);
+            font-family: var(--font-code);
+            margin-bottom: 40px;
+        }
+
+        .project-banner {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .project-content {
+            max-width: 800px;
+            margin: 60px auto;
+        }
+
+        .content-block {
+            margin-bottom: 40px;
+        }
+
+        .content-block h2 {
+            color: var(--text-color);
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+
+        .content-block p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .back-nav {
+            padding: 20px 5%;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(15, 23, 42, 0.9);
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .back-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 500;
+            font-family: var(--font-heading);
+        }
+
+        .back-link:hover {
+            color: var(--primary-accent);
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="back-nav">
+        <a href="index.html#experience" class="back-link">
+            <i class="fas fa-arrow-left"></i> Retour au Portfolio
+        </a>
+    </nav>
+
+    <main class="container">
+        <section class="project-hero">
+            <div class="subtitle">Data Science</div>
+            <h1>Algorithme de Prévision</h1>
+            <div class="project-meta">Python • Scikit-Learn • Pandas • 2024</div>
+            <img src="assets/dashboard.png" alt="Algorithm Cover" class="project-banner">
+        </section>
+
+        <section class="project-content">
+            <div class="glass-card">
+                <div class="content-block">
+                    <h2><i class="fas fa-brain" style="color: var(--primary-accent); margin-right: 10px;"></i>L'Objectif
+                    </h2>
+                    <p>Anticiper les volumes de ventes pour optimiser la gestion des stocks et réduire les coûts liés au
+                        sur-stockage ou aux ruptures.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2><i class="fas fa-code-branch"
+                            style="color: var(--primary-accent); margin-right: 10px;"></i>Méthodologie</h2>
+                    <p>Développement d'un modèle de Machine Learning supervisé :
+                        <br><br>
+                        • <strong>Exploration :</strong> Analyse des séries temporelles et saisonnalité.<br>
+                        • <strong>Modélisation :</strong> Comparaison de modèles (XGBoost, Prophet, SARIMA).<br>
+                        • <strong>Déploiement :</strong> API Flask pour servir les prédictions en temps réel.
+                    </p>
+                </div>
+
+                <div class="content-block">
+                    <h2><i class="fas fa-chart-bar"
+                            style="color: var(--primary-accent); margin-right: 10px;"></i>Performance</h2>
+                    <p>• <strong>Précision :</strong> RMSE réduit de 15% par rapport à l'ancienne méthode.<br>
+                        • <strong>Stocks :</strong> Réduction du stock immobilisé de 10%.<br>
+                        • <strong>Adoption :</strong> Outil utilisé quotidiennement par l'équipe Supply Chain.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Lilian Lefevre. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Commercial - Lilian Lefevre</title>
+    <meta name="description" content="Détails du projet Dashboard Commercial">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=11">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .project-hero {
+            padding: 120px 0 60px;
+            text-align: center;
+        }
+
+        .project-hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+
+        .project-meta {
+            color: var(--primary-accent);
+            font-family: var(--font-code);
+            margin-bottom: 40px;
+        }
+
+        .project-banner {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .project-content {
+            max-width: 800px;
+            margin: 60px auto;
+        }
+
+        .content-block {
+            margin-bottom: 40px;
+        }
+
+        .content-block h2 {
+            color: var(--text-color);
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+
+        .content-block p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .back-nav {
+            padding: 20px 5%;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(15, 23, 42, 0.9);
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .back-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 500;
+            font-family: var(--font-heading);
+        }
+
+        .back-link:hover {
+            color: var(--primary-accent);
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="back-nav">
+        <a href="index.html#experience" class="back-link">
+            <i class="fas fa-arrow-left"></i> Retour au Portfolio
+        </a>
+    </nav>
+
+    <main class="container">
+        <section class="project-hero">
+            <div class="subtitle">Business Intelligence</div>
+            <h1>Dashboard Commercial</h1>
+            <div class="project-meta">Power BI • SQL • DAX • 2025</div>
+            <img src="assets/dashboard.png" alt="Dashboard Cover" class="project-banner">
+        </section>
+
+        <section class="project-content">
+            <div class="glass-card">
+                <div class="content-block">
+                    <h2><i class="fas fa-bullseye" style="color: var(--primary-accent); margin-right: 10px;"></i>Le
+                        Challenge</h2>
+                    <p>L'entreprise avait besoin d'une vue unifiée de ses performances commerciales. Les données étaient
+                        dispersées dans plusieurs fichiers Excel, rendant le reporting lent et sujet aux erreurs.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2><i class="fas fa-cogs" style="color: var(--primary-accent); margin-right: 10px;"></i>La Solution
+                    </h2>
+                    <p>J'ai conçu un pipeline de données automatisé alimentant un tableau de bord Power BI interactif.
+                        <br><br>
+                        • <strong>ETL :</strong> Nettoyage et consolidation des sources.<br>
+                        • <strong>Modélisation :</strong> Création d'un schéma en étoile optimisé.<br>
+                        • <strong>UX/UI :</strong> Design ergonomique pour une lecture rapide des KPIs.
+                    </p>
+                </div>
+
+                <div class="content-block">
+                    <h2><i class="fas fa-chart-line"
+                            style="color: var(--primary-accent); margin-right: 10px;"></i>Résultats</h2>
+                    <p>• <strong>Gain de temps :</strong> Reporting automatisé (2j/mois économisés).<br>
+                        • <strong>Précision :</strong> Élimination des erreurs de saisie manuelle.<br>
+                        • <strong>Stratégie :</strong> Identification de 3 nouveaux leviers de croissance.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Lilian Lefevre. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
