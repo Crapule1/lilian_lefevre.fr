@@ -229,17 +229,20 @@ header {
     /* Reduced from 100vh */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    /* Changed from space-between to center */
     padding: 100px 20px 40px;
     /* Reduced top padding */
     position: relative;
     text-align: left;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 80px;
+    /* Increased gap for visual balance when centered */
 }
 
 .hero-content {
-    flex: 1;
+    flex: 0 1 auto;
+    /* Stop taking full width */
     min-width: 300px;
     max-width: 600px;
     text-align: left;
