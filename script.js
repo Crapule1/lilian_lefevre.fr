@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', () => {
         if (window.scrollY > 20) {
             header.style.backgroundColor = 'rgba(15, 23, 42, 0.95)';
-            header.style.padding = '15px 0';
+            header.style.padding = '10px 0'; // Compact on scroll
             header.style.boxShadow = '0 4px 30px rgba(0, 0, 0, 0.3)';
         } else {
             header.style.backgroundColor = 'rgba(15, 23, 42, 0.85)';
-            header.style.padding = '24px 0';
+            header.style.padding = '20px 0'; // Reduced initial padding
             header.style.boxShadow = 'none';
         }
     });

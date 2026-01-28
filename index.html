@@ -51,15 +51,11 @@
                 </div>
             </div>
             <div class="hero-visual">
-                <div class="code-terminal">
-                    <div class="terminal-header">
-                        <span class="dot red"></span>
-                        <span class="dot yellow"></span>
-                        <span class="dot green"></span>
-                        <span class="title">lilian_profile.json</span>
-                    </div>
-                    <div class="terminal-body">
-                        <pre><code id="typewriter-code"></code></pre>
+                <div class="profile-wrapper">
+                    <div class="profile-photo-container">
+                        <img src="assets/profile.jpg" alt="Lilian Lefevre" class="profile-photo">
+                        <div class="photo-glow"></div>
+                        <div class="photo-ring"></div>
                     </div>
                 </div>
             </div>
@@ -159,12 +155,54 @@
                 <h2 class="section-title">Parcours</h2>
 
                 <div class="project-showcase">
-                    <div class="glass-card project-card">
-                        <h3>Dashboard Exécutif - Pilotage Commercial</h3>
-                        <p style="margin-bottom: 24px; color: var(--text-muted);">Exemple de réalisation : Tableau de
-                            bord interactif permettant le suivi des KPIs en temps réel, l'analyse des ventes par région
-                            et la prévision des tendances.</p>
-                        <img src="assets/dashboard.png" alt="Tableau de bord Power BI" class="project-image">
+                    <div class="projects-grid">
+                        <!-- Project 1 -->
+                        <a href="project-1.html" class="project-card-link">
+                            <div class="glass-card project-card-item">
+                                <div class="card-image-wrapper">
+                                    <img src="assets/dashboard.png" alt="Dashboard Commercial" class="project-thumb">
+                                    <div class="card-overlay">
+                                        <span>Voir le projet</span>
+                                    </div>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Dashboard Commercial</h3>
+                                    <p>Pilotage de la performance commerciale</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- Project 2 -->
+                        <a href="project-2.html" class="project-card-link">
+                            <div class="glass-card project-card-item">
+                                <div class="card-image-wrapper">
+                                    <img src="assets/dashboard.png" alt="Architecture Data" class="project-thumb">
+                                    <div class="card-overlay">
+                                        <span>Voir le projet</span>
+                                    </div>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Architecture Data Lake</h3>
+                                    <p>Infrastructure Azure Scalable</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- Project 3 -->
+                        <a href="project-3.html" class="project-card-link">
+                            <div class="glass-card project-card-item">
+                                <div class="card-image-wrapper">
+                                    <img src="assets/dashboard.png" alt="Algorithme Prédictif" class="project-thumb">
+                                    <div class="card-overlay">
+                                        <span>Voir le projet</span>
+                                    </div>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Algorithme Prédictif</h3>
+                                    <p>Prévision des ventes (Machine Learning)</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
